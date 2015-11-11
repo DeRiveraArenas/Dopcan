@@ -1,0 +1,237 @@
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#472f63"
+            android:gravity="center_vertical">
+
+            <ImageView
+                android:id="@+id/ADOPCIONIMAGEN"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_centerHorizontal="true"
+                android:src="@drawable/adopcion" />
+
+            <TextView
+                android:id="@+id/ADOPCIONTEXTO"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/ADOPCIONIMAGEN"
+                android:layout_centerHorizontal="true"
+                android:text="ADOPCIÓN"
+                android:textColor="@android:color/white"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/ADOPCIONTEXTO"
+                android:layout_centerHorizontal="true"
+                android:text="UN NUEVO AMIGO"
+                android:textColor="@android:color/white" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#624484"
+            android:gravity="center_vertical">
+
+            <ImageView
+                android:id="@+id/AVISOIMAGEN"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_centerHorizontal="true"
+                android:src="@drawable/aviso" />
+
+            <TextView
+                android:id="@+id/AVISOTEXTO"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/AVISOIMAGEN"
+                android:layout_centerHorizontal="true"
+                android:text="AVISO"
+                android:textColor="@android:color/white"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/AVISOTEXTO"
+                android:layout_centerHorizontal="true"
+                android:text="ME HE PERDIDO"
+                android:textColor="@android:color/white" />
+
+        </RelativeLayout>
+
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_weight="1">
+
+
+        <RelativeLayout
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#773d78"
+            android:gravity="center_vertical">
+
+            <ImageView
+                android:id="@+id/HOGARIMAGEN"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_centerHorizontal="true"
+                android:src="@drawable/ht" />
+
+            <TextView
+                android:id="@+id/HOGARTEXTO"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/HOGARIMAGEN"
+                android:layout_centerHorizontal="true"
+                android:text="HT"
+                android:textColor="@android:color/white"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/HOGARTEXTO"
+                android:layout_centerHorizontal="true"
+                android:text="HOGAR TEMPORAL"
+                android:textColor="@android:color/white" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#613978"
+            android:gravity="center_vertical">
+
+            <ImageView
+                android:id="@+id/CONSEJOIMAGEN"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_centerHorizontal="true"
+                android:src="@drawable/consejo" />
+
+            <TextView
+                android:id="@+id/CONSEJOTEXTO"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/CONSEJOIMAGEN"
+                android:layout_centerHorizontal="true"
+                android:text="CONSEJO"
+                android:textColor="@android:color/white"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/CONSEJOTEXTO"
+                android:layout_centerHorizontal="true"
+                android:text="SE RESPONSABLE"
+                android:textColor="@android:color/white" />
+
+        </RelativeLayout>
+
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_weight="1">
+
+        <RelativeLayout
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#ad4872"
+            android:gravity="center_vertical">
+
+            <ImageView
+                android:id="@+id/MAPAIMAGEN"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_centerHorizontal="true"
+                android:src="@drawable/mapa" />
+
+            <TextView
+                android:id="@+id/MAPATEXTO"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/MAPAIMAGEN"
+                android:layout_centerHorizontal="true"
+                android:text="MAPA"
+                android:textColor="@android:color/white"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/MAPATEXTO"
+                android:layout_centerHorizontal="true"
+                android:text="TODO CERCA"
+                android:textColor="@android:color/white" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#cd4a6a"
+            android:gravity="center_vertical">
+
+            <ImageView
+                android:id="@+id/EVENTOIMAGEN"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_centerHorizontal="true"
+                android:src="@drawable/eventos" />
+
+            <TextView
+                android:id="@+id/EVENTOTEXTO"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/EVENTOIMAGEN"
+                android:layout_centerHorizontal="true"
+                android:text="EVENTOS"
+                android:textColor="@android:color/white"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/EVENTOTEXTO"
+                android:layout_centerHorizontal="true"
+                android:text="NO OLVIDAR"
+                android:textColor="@android:color/white" />
+
+        </RelativeLayout>
+
+    </TableRow>
+</TableLayout>
+
